@@ -3,13 +3,13 @@
    ========================================================================== */
 
 @mixin font-size($sizeValue: 1.6) {
-    font-size: ($sizeValue * 10) + px;
-    font-size: $sizeValue + rem;
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
 }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+	Helper classes
+	========================================================================== */
 
 .hidden {
     display: none !important;
@@ -72,6 +72,13 @@
     @include transition(all .35s);
 }
 
+.margin-80 {
+	margin-top: 80px !important;
+}
+.margin-40 {
+	margin-top: 40px !important;
+}
+
 /* Modal */
 .modal-backdrop {
     background-color: white;
@@ -125,13 +132,15 @@
     text-align: center;
     cursor: pointer;
     overflow: hidden;
-    @include box-shadow(0 0 10px rgba(0,0,0,.4));
+	@include box-shadow(0 0 10px rgba(0,0,0,.4));
+	background-color: white;
+	z-index: 9999;
     &::after {
         content: '\f139';
         display: inline-block;
         font-family: FontAwesome;
         font-size: 52px;
-        color: $color;
+        color: $brown;
     }
 }
 
