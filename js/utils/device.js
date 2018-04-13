@@ -3,21 +3,21 @@
 var Device = {
 	wWindow: $(window).width(),
 	mobile: function() {
-		if ( $(window).width() <= 767 ) {
+		if ( Device.wWindow <= 767 ) {
 			return true;
 		} else {
 			return false;
 		}
 	},
 	tablet: function() {
-		if ( $(window).width() >= 768 && $(window).width() <= 1024 ) {
+		if ( Device.wWindow >= 768 && Device.wWindow <= 1024 ) {
 			return true;
 		} else {
 			return false;
 		}	
 	},
 	desktop: function() {
-		if ( $(window).width() > 1024 ) {
+		if ( Device.wWindow > 1024 ) {
 			return true;
 		} else {
 			return false;
