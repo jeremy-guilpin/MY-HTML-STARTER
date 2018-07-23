@@ -1,0 +1,19 @@
+{
+  "name": "nouveau_projet",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssbeautify": "^1.0.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "latest",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "latest",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest",
+    "gulp-uglify": "^3.0.0"
+  }
+}
